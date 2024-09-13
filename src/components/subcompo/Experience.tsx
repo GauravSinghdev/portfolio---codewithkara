@@ -2,7 +2,7 @@ export default function Experience() {
     const experiences = [
       {
         title: "Software Engineer",
-        company: "TechInnovate Solutions",
+        company: "Metacube Software",
         period: "2021 - 2024",
         responsibilities: [
           "Lead development of complex web applications using React and Node.js",
