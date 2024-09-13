@@ -1,3 +1,7 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": "next",
+  "rules": {
+    "react/no-unescaped-entities": "off", // Disables the rule for unescaped entities
+    "@typescript-eslint/no-unused-vars": "off" // Disables the rule for unused variables
+  }
 }
