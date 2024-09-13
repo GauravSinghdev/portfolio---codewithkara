@@ -7,7 +7,7 @@ interface ContactFormData {
   message: string;
 }
 
-export async function GET(req: NextRequest) {
+export async function GET() {
   // Respond with a simple JSON message for GET request
   return NextResponse.json({ message: 'hi' });
 }

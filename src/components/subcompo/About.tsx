@@ -8,11 +8,11 @@ export default function About() {
             <Socials/>
         </div>
         <p className="mb-4">
-          I'm a passionate full stack developer with 2+ years of experience in creating immersive web experiences. 
+          I&apos;m a passionate full stack developer with 2+ years of experience in creating immersive web experiences. 
           My expertise lies in combining cutting-edge web technologies to build unique and engaging applications.
         </p>
         <p>
-          When I'm not coding, you can find me exploring new tech or mentoring aspiring developers.
+          When I&apos;m not coding, you can find me exploring new tech or mentoring aspiring developers.
         </p>
       </section>
     )
