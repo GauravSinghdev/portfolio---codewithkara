@@ -1,11 +1,15 @@
-// app/api/contact/route.js (Next.js 13+ routing without TypeScript)
+import { NextRequest, NextResponse } from 'next/server';
 
-import { NextResponse } from 'next/server';
+interface ContactFormData {
+  name: string;
+  email: string;
+  message: string;
+}
 
-export async function POST(req: NextResponse) {
+export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { name, email, message } = body;
+    const { name, email, message }: ContactFormData = body;
 
     // Resend.com API endpoint
     const resendEndpoint = 'https://api.resend.com/emails';
