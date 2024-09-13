@@ -16,9 +16,9 @@ export async function POST(req: NextRequest) {
 
     // Create email data
     const emailData = {
-      from: email,
+      from: 'portfolio@codewithkara.com', // Use verified domain email
       to: 'gauravkalakoti19@gmail.com', // Replace with your email address
-      subject: `Contact Form Submission from ${name} - portfolio`,
+      subject: `Portfolio - Form Submission from ${name}`,
       text: message,
       html: `<p><strong>Name:</strong> ${name}</p>
              <p><strong>Email:</strong> ${email}</p>
